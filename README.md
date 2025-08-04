@@ -1,0 +1,2 @@
+# Corne XIAO
+This config is for my custom build corne-"compatible" keyboard for the seeed xiao nRF52840. It utilizes a single flippable pcb board with choc hot swap sockets and switches (I am not sure if they are compatible with other hotsockets and switches). All files needed are included in this repository and links to the store we I got the hardware from are provided (currently work in progress). 
