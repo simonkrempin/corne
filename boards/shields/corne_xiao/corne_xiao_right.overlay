@@ -1,4 +1,4 @@
-#include "corne.dtsi"
+#include "corne_xiao.dtsi"
 
 &default_transform {
 	col-offset = <6>;
