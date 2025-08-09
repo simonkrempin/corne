@@ -17,21 +17,21 @@
 	        shift_up: shift_up {
 	            	compatible = "zmk,behavior-mod-morph";
 			#binding-cells = <0>;
-			bindings = <&kp LEFT>, <&kp PAGE_UP>;
+			bindings = <&kp UP>, <&kp PAGE_UP>;
 			mods = <(MOD_LSFT|MOD_RSFT)>;
 	        };
 
 	        shift_down: shift_down {
 			compatible = "zmk,behavior-mod-morph";
 			#binding-cells = <0>;
-			bindings = <&kp LEFT>, <&kp PAGE_DOWN>;
+			bindings = <&kp DOWN>, <&kp PAGE_DOWN>;
 			mods = <(MOD_LSFT|MOD_RSFT)>;
         	};
 
         	shift_right: shift_right {
 	        	compatible = "zmk,behavior-mod-morph";
 			#binding-cells = <0>;
-			bindings = <&kp LEFT>, <&kp END>;
+			bindings = <&kp RIGHT>, <&kp END>;
 			mods = <(MOD_LSFT|MOD_RSFT)>;
 		};
 	};
