@@ -53,7 +53,7 @@
                 		&kp PERCENT  &kp N1     &kp N2     &kp N3         &kp N4  &kp N5 	&kp N6     &kp N7       &kp N8     &kp N9       &kp N0        &none
                 		&kp PIPE     &kp STAR   &kp PLUS   &kp SLASH      &kp GT  &kp DQT   	&kp AMPS   &shift_left  &shift_up  &shift_down  &shift_right  &kp DEL
                 		&kp HASH     &kp TILDE  &kp MINUS  &kp KP_DIVIDE  &kp LT  &kp SQT    	&kp CARET  &kp DOT      &kp COMMA  &kp EQUAL    &none         &none
-                		                                   &bt BT_SEL 0         &out OUT_USB   &trans     	&trans     &trans       &trans
+                		                                   &trans         &trans   &trans     	&trans     &trans       &trans
 			>;
 		};
 
