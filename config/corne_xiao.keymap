@@ -37,21 +37,21 @@
 	};
 
 	combos {
-		compatible: "zmk, combos";
-		combo_space: {
+		compatible = "zmk,combos";
+		combo_space {
 			timeout-ms = <50>;
 			key-positions = <19 20>;
-			bindings: <&kp SPACE>;
+			bindings = <&kp SPACE>;
 		};
-		combo_backspace: {
+		combo_backspace {
 			timeout-ms = <50>;
 			key-positions = <20 21>;
-			bindings: <&kp BACKSPACE>;
+			bindings = <&kp BACKSPACE>;
 		};
-		combo_enter: {
+		combo_enter {
 			timeout-ms = <50>;
 			key-positions = <15 16>;
-			bindings: <&kp ENTER>;
+			bindings = <&kp ENTER>;
 		};
 	};
 
