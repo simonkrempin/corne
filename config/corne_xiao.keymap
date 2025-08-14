@@ -61,9 +61,9 @@
 		default_layer {
 			bindings = <
                 		&kp ESC	 &kp F  &kp W  &kp B      &kp V       &kp ENTER		&kp SPACE      &kp K     &kp Y      &kp Z  &kp X  &none
-                		&kp TAB	 &kp A  &kp S  &kp T      &kp E       &kp SEMI		&kp BACKSPACE  &kp N     &kp I      &kp R  &kp O  &kp Q
+                		&kp TAB	 &kp A  &kp S  &kp T      &kp E       &kp SEMI		&kp J          &kp N     &kp I      &kp R  &kp O  &kp Q
 		                &none    &kp U  &kp L  &kp D      &kp C       &none		&none          &kp H     &kp M      &kp G  &kp P  &none
-		                			&sk LGUI  &sk LSHIFT  &sl 1		&sl 2  &sk LALT  &sk LCTRL
+		                			&sk LGUI  &sk LSHIFT  &sl 1		&sl 2          &sk LALT  &sk LCTRL
 			>;
 		};
 
@@ -90,7 +90,7 @@
 				&bootloader   &bt BT_CLR  &none  &none  &none  &none		&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &none  &none  &bootloader
 				&out OUT_USB  &none       &none  &none  &none  &none		&none         &none         &none         &none  &none  &none
 				&out OUT_BLE  &none       &none  &none  &none  &none		&none         &none         &none         &none  &none  &none
-				                                       &none  &none  &none		&none         &none         &none
+				                                 &none  &none  &none		&none         &none         &none
 			>;
 		};
 	};
