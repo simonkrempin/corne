@@ -70,18 +70,18 @@
 		raised_layer {
 			bindings = <
                 		&kp PERCENT  &kp N1     &kp N2     &kp N3         &kp N4  &kp N5 	&kp N6     &kp N7       &kp N8     &kp N9       &kp N0        &none
-                		&kp PIPE     &kp STAR   &kp PLUS   &kp SLASH      &kp GT  &kp DQT   	&kp AMPS   &shift_left  &shift_up  &shift_down  &shift_right  &kp DEL
-                		&kp HASH     &kp TILDE  &kp MINUS  &kp KP_DIVIDE  &kp LT  &kp SQT    	&kp CARET  &kp DOT      &kp COMMA  &kp EQUAL    &none         &none
+                		&kp PIPE     &kp STAR   &kp PLUS   &kp SLASH      &kp GT  &kp DQT   	&kp AMPS   &kp LEFT     &kp UP     &kp DOWN     &kp RIGHT     &kp DEL
+                		&kp HASH     &kp TILDE  &kp MINUS  &kp BACKSLASH  &kp LT  &kp SQT    	&kp CARET  &kp DOT      &kp COMMA  &kp EQUAL    &none         &none
                 		                                   &trans         &trans   &trans     	&trans     &trans       &trans
 			>;
 		};
 
 		lowered_layer {
 			bindings = <
-		                &kp F1  &kp F2     &kp F3  &kp F4    &kp F5     &kp F6	     &kp F7     &kp F8             &kp F9           &kp F10   &kp F11  &kp F12
-		                &none   &none      &none   &kp EXCL  &kp GRAVE  &none        &none      &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp LPAR  &kp QMARK    &none
-               			&none   &kp UNDER  &none   &none     &none      &none	     &none      &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp RPAR  &none    &none
-		                                           &trans    &trans     &trans	     &trans     &trans             &trans
+		                &kp F1  &kp F2     &kp F3  &kp F4      &kp F5     &kp F6	     &kp F7     &kp F8             &kp F9           &kp F10   &kp F11  &kp F12
+		                &none   &kp AT     &none   &kp EXCL    &kp GRAVE  &none        &none      &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp LPAR  &kp QMARK    &none
+               			&none   &kp UNDER  &none   &kp DOLLAR  &none      &none	     &none      &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp RPAR  &none    &none
+		                                           &trans      &trans     &trans	     &trans     &trans             &trans
 			>;
 		};
 
